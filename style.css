@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    font-weight: 400;
+}
+/*
+#1b211b  black
+#e9e9e9   white for text
+*/
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#welcome_button{
+    height: 100px;
+    width: 600px;
+    font-size: 68px;
+    background-color: #0b0c0b;
+    color: #e9e9e9;
+    border-radius: 0;
+    border: none;
+    font-weight: 300;
+}
+
+.center_button{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
